@@ -1,0 +1,17 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "Jupyter Playground",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.python-extension-pack",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
