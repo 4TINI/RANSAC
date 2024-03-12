@@ -1,1 +1,6 @@
+ipywidgets
+ipykernel
 jupyter
+matplotlib
+numpy
+scikit-image
